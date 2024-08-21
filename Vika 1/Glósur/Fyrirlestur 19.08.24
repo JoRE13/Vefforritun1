@@ -1,0 +1,30 @@
+Nota VSCode
+
+Extension Live Server, til þess að birta HTML skjal með live tengingu
+Right click og velja open with live server
+
+Setti upp Github repo fyrir öll vefforritunar verkefni https://github.com/JoRE13/Vefforritun1
+
+<p> þýðir paragraph eða málsgrein oft innan í <body> elementi
+
+Tengja saman HTML slóðir með hyperlink
+    - <a> element (anchor) fyrir hyperlinks
+    - <a href="about.html"> Smelltu á mig </a>
+        - href skilgreinir linkinn sem við erum að fara á
+
+Hægt að draga og hafa marga glugga opna í vs code
+
+<h1> fyrirsögn 1 - heading 1
+<h2> fyrirsögn 2 - heading 2, baisically sub header
+<b> þýðir bold eða feitletrað
+
+Byrja skjöl á <!DOCTYPE html>, skoða index.html í verkefni 1
+
+Ekki reyna að setja look á þetta, það gert í CSS. HTML skilgreinir bara merkingu
+- Vont css er verra en ekkert css. Reyna að setja allt upp með merkingu. Ekki til dæmis setja fyrirsögn með ákveðnu fontsize og bold 
+  heldur nota merkingu fyrir fyrirsögn til dæmis <h1> eða <h2>
+
+Skoða að glósa í md skrá
+
+Netlify
+    - Hægt að tengja við GitHub, ekki gera það, á ekki að fá glósur inn
