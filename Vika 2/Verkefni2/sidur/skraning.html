@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+   <head lang="is">
+        <meta charset="UTF-8">
+        <meta name="Description" content="Vefsíða Spilabúðarinnar">
+        <meta property="og:title" content="Skráning">
+        <meta property="og:description" content="Skráningarsíða Spilabúðarinnar">
+        <meta property="og:image" content="../myndir/sharing.jpg">
+        <title> Spilabúðin - Skráning</title>
+   </head> 
+   <body>
+      <header>
+         <h1> Spilabúðin</h1>
+      </header>
+      <p><a href="#maincontent">Beint í efni</a></p>
+      <nav>
+         <ul>
+         <li><a href = "index.html">Forsíða spilabúðar</a></li>
+         <li><a href = "spil.html">Spilasíða</a></li>
+         <li><a href = "vidburdir.html">Viðburðarsíða</a></li>
+         <li><strong><a href = "skraning.html">Skráning á viðburð</a></strong></li>
+         </ul>
+      </nav>
+      <main id="maincontent">
+        <h1>Skráning í viðburði</h1>
+        <form method="post" action="../skraning">
+            <fieldset>
+               <legend>Viðburður</legend>
+               <div>
+                  <label for="event">
+                     Hvaða viðburð vilt þú koma á?
+                     <select id="event" name="Viðburður">
+                        <option value="puzzle">Púslkvöld</option>
+                        <option value="ttr">Ticket to Ride</option>
+                     </select>
+                  </label>
+               </div>
+               <div>
+                  <label>
+                     Hvenær?
+                     <input type="date" value="2024-09-02">           
+                  </label>
+               </div>
+               <div>
+                  <label for="time">
+                     Klukkan hvað?
+                     <select id="time" name="Tími">
+                        <option value="10:00-11:00">10:00-11:00</option>
+                        <option value="11:00-12:00">11:00-12:00</option>
+                        <option value="12:00-13:00">12:00-13:00</option>
+                        <option value="13:00-14:00">13:00-14:00</option>
+                        <option value="14:00-15:00">14:00-15:00</option>
+                        <option value="15:00-16:00">15:00-16:00</option>
+                        <option value="16:00-17:00">16:00-17:00</option>
+                        <option value="17:00-18:00">17:00-18:00</option>
+                        <option value="18:00-19:00">18:00-19:00</option>
+                        <option value="19:00-20:00">19:00-20:00</option>
+                        <option value="20:00-21:00">20:00-21:00</option>
+                        <option value="21:00-22:00">21:00-22:00</option>
+                        <option value="22:00-23:00">22:00-23:00</option>
+                        <option value="23:00-00:00">23:00-00:00</option>
+                     </select>
+                  </label>
+               </div>
+               <div>
+                  <label>Hve mörg?
+                     <input type="number" min="1" max="10" value="1">
+                  </label>
+               </div>
+               <div>
+                  <label for="textarea">Viltu taka eitthvað fram?</label>
+                  <textarea id="textarea" name="comment"></textarea>
+               </div>
+            </fieldset>
+            <fieldset>
+               <legend>Panta mat</legend>
+               <div>
+                  <label for="food">Viltu einhvern mat
+                     <select id="food" name="food">
+                        <option value="Pizzusneið og gos">Pizzusneið og gos</option>
+                        <option value="Kaffi og kaka">Kaffi og kaka</option>
+                        <option value="Engan mat">Engan mat</option>
+                     </select>
+                  </label>
+               </div>
+               <div>
+                  <label>
+                     Ofnæmi?
+                     <input type="checkbox">
+                  </label>
+               </div>
+               <div>
+                  <label for="comment">Annað sem að við eigum að vita</label>
+                  <textarea id="comment" name="comment"></textarea>
+               </div>
+            </fieldset>
+            <fieldset>
+               <legend>Þínar upplýsingar</legend>
+               <div>
+                  <label for="name"> Nafn
+                     <input id="name" type="text" required>
+                  </label>
+               </div>
+               <div>
+                  <label for="email">
+                     Netfang
+                     <input id="email" type="email" required placeholder="abc1@hi.is">
+                  </label>
+               </div>
+               <div>
+                  <label for="simi">
+                     Símanúmer
+                     <input id="simi" type="text" required
+                      placeholder="000-0000">
+                  </label>
+               </div>
+            </fieldset>
+            <fieldset>
+               <legend>Samþykkja og panta</legend>
+               <div>
+                  <label>
+                     Ég samþykki skilmála Spilabúðarinnar
+                     <input type="checkbox" required>
+                  </label>
+               </div>
+               <button>Panta</button>
+               
+            </fieldset>
+
+            
+        </form>
+        <p><a href="index.html">Aftur á forsíðu</a></p>
+      </main>
+      <footer>
+         <h3>Opnunartími</h3>
+         <ul>
+            <li>Mánudagar Lokað</li>
+            <li>Þriðjudagar til fimmtudags 14:00–22:00</li>
+            <li>Föstudaga 14:00–00:00</li>
+            <li>Laugardaga 12:00–00:00</li>
+            <li>Sunnudaga 12:00–22:00</li>
+         </ul>
+         <h3>Hér erum við</h3>
+         <ul>
+            <li>Spilabúðin ehf.</li>
+            <li>Spilgata 1</li>
+            <li>101 Reykjavík</li>
+            <li>Sími 123-4567</li>
+            <li>spilabudin@example.org</li>            
+         </ul>
+         <h3>Samfélagsmiðlar</h3>
+         <ul>
+            <li><a href="https://www.facebook.com/HaskoliIslands/">Facebook</a></li>
+            <li><a href="https://www.youtube.com/user/HIvarp">YouTube</a></li>
+            <li><a href="https://www.instagram.com/haskoli_islands/">Instagram</a></li>
+         </ul>
+      </footer>
+   </body>
+</html>
