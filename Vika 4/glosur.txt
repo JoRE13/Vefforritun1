@@ -1,0 +1,48 @@
+í css:
+
+.wrapper .wrapper-content{
+    flex:1;
+}
+
+.wrapper-content{
+    display: flex;
+
+}
+
+taka úr main og setja í .wrapper-content
+nota gap í wrapper foreldri stjórnsa bili milli barna
+
+í .wrapper nota (justify content)? og align items = center
+
+
+
+Fyrir pöntunarsíðu
+HTML: skoða dæmi með object layout vika 4
+<div class cards>
+    <h2>
+    <div class=content>
+        <section class = card>
+            <h3 class title>
+            <div class content>
+                <div class image
+                <div class text
+
+
+css
+
+.card{
+    border
+    width = 50%
+}
+
+.cards > .content {
+    display: flex;
+    width: 100%
+    gap:
+}
+
+.card .image img{
+    width: 100%
+    height: 300px
+    object-fit: cover
+}
